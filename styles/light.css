@@ -1,4 +1,5 @@
 :root.theme-light {
+  
   --bg-img: url("../images/cover-image-light.png"); 
   --bg-color: #fceff6;
   --accent-color: #FF8DCB;
@@ -19,17 +20,17 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-  --bg-img: url(../images/cover-image-light.png); 
-  --bg-color: #fceff6;
-  --accent-color: #FF8DCB;
-  --card-text: #353430;
-  --title-color: #FFC2E6;
-  --header-text-color: #353430;
-  --header-text-bg-color: #FF8DCB;
-  --accent-color-border: rgba(50, 49, 45, 0.4);
-  --shadow-color: #FF0070;
-  --corner-color: #353430;
-  --header-color: #353430;
+    --bg-img: url(../images/cover-image-light.png); 
+    --bg-color: #fceff6;
+    --accent-color: #FF8DCB;
+    --card-text: #353430;
+    --title-color: #FFC2E6;
+    --header-text-color: #353430;
+    --header-text-bg-color: #FF8DCB;
+    --accent-color-border: rgba(50, 49, 45, 0.4);
+    --shadow-color: #FF0070;
+    --corner-color: #353430;
+    --header-color: #353430;
   }
 
   .header__hiddencorner {
