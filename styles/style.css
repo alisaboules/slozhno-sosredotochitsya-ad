@@ -1,8 +1,4 @@
 .page {
-  background-image: var(--bg-img);
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
   background-color: var(--bg-color);
   font-family: var(--main-font, monospace);
   display: flex;
@@ -11,11 +7,14 @@
   min-width: 375px;
   width: 100%;
   gap: 40px;
-  height: 100%;
   overflow-x: hidden;
 }
 
 .header {
+  background-image: var(--bg-img);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
   position: relative;
   display: grid;
   align-items: center;
