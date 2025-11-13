@@ -312,10 +312,12 @@
   .sunset, .street {
     grid-column: span 2;
   }
+  
   .books {
     grid-column: span 1;
     grid-row: span 1;
   }
+  
   .ice-cream, .tape {
     grid-row: span 2;
   }
@@ -350,6 +352,7 @@
   .hard_to_concentrate .card {
     grid-column: span 2;
   }
+  
   .what_reduces_attention {
       grid-template-columns: repeat(3, 1fr);
   }
@@ -358,6 +361,7 @@
     grid-row: 2;
     grid-column: span 1;
   }
+  
   .how_to_concentrate {
       grid-template-columns: repeat(3, 1fr);
   }
