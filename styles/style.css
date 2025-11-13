@@ -1,5 +1,5 @@
-.page { 
-  background-image:  var(--bg-image);
+.page {
+  background-image: var(--bg-image);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -59,7 +59,7 @@
   gap: 13px;
 }
 
-.header__theme-menu-button { 
+.header__theme-menu-button {
   cursor: pointer;
   display: inline-block;
   background: transparent;
@@ -127,7 +127,7 @@
   text-shadow: 4px 4px 0px var(--shadow-color);
   color: var(--title-color);
   font-weight: 700;
-  font-size: 116px;
+  /* font-size: 116px; */
   line-height: 83%;
   padding: var(--decoration-gap);
 }
@@ -182,9 +182,6 @@
   color: var(--header-text-color);
 }
 
-.rules {
-  display: flex; 
-}
 .card,
 .section__list-item {
   display: flex;
@@ -239,7 +236,7 @@
 }
 
 @media (width >= 768px) {
-  :root{
+  :root {
     --decoration-gap: 20px;
   }
 
