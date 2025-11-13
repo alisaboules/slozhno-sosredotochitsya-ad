@@ -119,7 +119,8 @@
   color: var(--header-text-color);
   font-weight: 700;
   font-size: inherit;
-  margin: var(--decoration-gap);
+  line-height: 23.4px;
+  margin-right: var(--decoration-gap);
 }
 
 .header__title {
@@ -197,6 +198,7 @@
   color: var(--card-text);
   font-weight: 400;
   font-size: 18px;
+  line-height: 23.4px;
 }
 
 .pictures {
