@@ -119,7 +119,7 @@
   font-weight: 700;
   font-size: inherit;
   line-height: 23.4px;
-  margin-right: var(--decoration-gap);
+  margin-right: 0 var(--decoration-gap);
 }
 
 .header__title {
