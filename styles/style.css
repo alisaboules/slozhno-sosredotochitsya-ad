@@ -196,6 +196,7 @@
 .card__text {
   color: var(--card-text);
   font-weight: 400;
+  font-size: 18px;
 }
 
 .pictures {
