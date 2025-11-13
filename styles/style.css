@@ -59,7 +59,7 @@
   gap: 13px;
 }
 
-.header__theme-menu-button { 
+.header__theme-menu-button {
   cursor: pointer;
   display: inline-block;
   background: transparent;
@@ -235,7 +235,7 @@
 }
 
 @media (width >= 768px) {
-  :root{
+  :root {
     --decoration-gap: 20px;
   }
 
